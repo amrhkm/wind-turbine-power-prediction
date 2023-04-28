@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hamir/Desktop/Wind%20Turbine/train/mlruns/544268803419580129/ab08191a504e41d28ce9118e7fb82ed0/artifacts
+end_time: 1682564674972
+entry_point_name: ''
+experiment_id: '544268803419580129'
+lifecycle_stage: active
+run_id: ab08191a504e41d28ce9118e7fb82ed0
+run_name: run_0
+run_uuid: ab08191a504e41d28ce9118e7fb82ed0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682564664163
+status: 3
+tags: []
+user_id: hamir

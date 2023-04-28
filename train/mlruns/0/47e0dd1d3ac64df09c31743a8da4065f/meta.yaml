@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/hamir/Desktop/Wind%20Turbine/train/mlruns/0/47e0dd1d3ac64df09c31743a8da4065f/artifacts
+end_time: 1682563383088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47e0dd1d3ac64df09c31743a8da4065f
+run_name: XGBRegressor
+run_uuid: 47e0dd1d3ac64df09c31743a8da4065f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682563361073
+status: 3
+tags: []
+user_id: hamir
