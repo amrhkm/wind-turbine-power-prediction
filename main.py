@@ -11,17 +11,6 @@ data = pd.read_csv("df.csv")
 with open('best_rf.pickle', 'rb') as f:
     model = pickle.load(f)
 
-# Split the dataset into features and target variable
-#features = ['power_kw', 'wind_speed_ms', 'wind_direction_deg', 'month', 'day', 'hour'] #without theoretical power 
-
-# training_data = data[features]
-# X = training_data.drop(columns=['power_kw'], axis = 1).values
-# y = training_data['power_kw'].values
-
-# Train a random forest model
-# model = RandomForestRegressor()
-# model.fit(X, y)
-
 # Sidebar header
 st.sidebar.header("Wind Turbine Power Prediction")
 
