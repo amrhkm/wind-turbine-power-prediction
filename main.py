@@ -36,7 +36,7 @@ st.write("""
 """)
 
 if st.checkbox('Show Training Dataframe'):
-    data
+    st.dataframe(data)
 
 @st.cache_data
 def convert_df(df):
