@@ -1,7 +1,0 @@
-artifact_location: file:///C:/Users/hamir/Desktop/Wind%20Turbine/train/mlruns/544268803419580129
-creation_time: 1682564663724
-experiment_id: '544268803419580129'
-last_update_time: 1682564923220
-lifecycle_stage: active
-name: mlflow-demo-iris
-tags: {}
