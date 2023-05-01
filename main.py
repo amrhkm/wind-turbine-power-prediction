@@ -15,7 +15,7 @@ data = load_data("https://raw.githubusercontent.com/amrhkm/wind-turbine-power-pr
 # Load the trained model from the file
 @st.cache_resource
 def load_model():
-  with open('/content/drive/MyDrive/best_rf.pickle', 'rb') as f:
+  with open('best_rf.pickle', 'rb') as f:
     model = pickle.load(f)
     return model
 
