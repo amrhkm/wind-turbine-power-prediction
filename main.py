@@ -35,7 +35,8 @@ st.write("""
 - Wind Direction (°): The wind direction at the hub height of the turbine (wind turbines turn to this direction automatically)
 """)
 
-data
+if st.checkbox('Show Training Dataframe'):
+    data
 
 @st.cache_data
 def convert_df(df):
