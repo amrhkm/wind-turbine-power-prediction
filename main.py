@@ -58,8 +58,9 @@ st.subheader("Use these slider to make prediction")
 wind_speed_ms = st.slider('Wind Speed (m/s)', float(data['wind_speed_ms'].min()), float(data['wind_speed_ms'].max()), step=0.1)
 wind_direction_deg = st.slider('Wind Direction (deg)', float(data['wind_direction_deg'].min()), float(data['wind_direction_deg'].max()), step=1.0)
 month = st.slider('Month', int(data['month'].min()), int(data['month'].max()))
-hour = st.slider('Hour', int(data['hour'].min()), int(data['hour'].max()))
 day = st.slider('Day', int(data['day'].min()), int(data['day'].max()))
+hour = st.slider('Hour', int(data['hour'].min()), int(data['hour'].max()))
+
 
 # Predict button
 if st.button('Predict Power'):
