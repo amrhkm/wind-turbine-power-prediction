@@ -5,7 +5,7 @@ import pickle
 
 
 # Load the dataset
-data = pd.read_csv("df.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/amrhkm/wind-turbine-power-prediction/master/df.csv")
 
 # Load the trained model from the file
 with open('best_rf.pickle', 'rb') as f:
