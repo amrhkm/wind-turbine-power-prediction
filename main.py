@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import ExtraTreesRegressor
 import pickle
 import numpy as np
 
@@ -17,7 +17,7 @@ ori_data = load_data('https://raw.githubusercontent.com/amrhkm/wind-turbine-powe
 # Load the trained model from the file
 @st.cache_resource
 def load_model():
-  with open('best_rf.pickle', 'rb') as f:
+  with open('etree_tuned.pickle', 'rb') as f:
     model = pickle.load(f)
     return model
 
