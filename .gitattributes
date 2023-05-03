@@ -1,2 +1,4 @@
 best_rf.pickle filter=lfs diff=lfs merge=lfs -text
 best_rf.pbz2 filter=lfs diff=lfs merge=lfs -text
+*etree_tuned.pickle filter=lfs diff=lfs merge=lfs -text
+etree_tuned.pickle filter=lfs diff=lfs merge=lfs -text
