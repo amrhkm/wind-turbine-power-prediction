@@ -1,3 +1,0 @@
-best_rf.pickle filter=lfs diff=lfs merge=lfs -text
-*etree_tuned.pickle filter=lfs diff=lfs merge=lfs -text
-etree_tuned.pickle filter=lfs diff=lfs merge=lfs -text
